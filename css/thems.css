@@ -1,0 +1,56 @@
+﻿body {
+    font-family: "Microsoft Yahei";
+    font-size: 14px;
+    color: #333;
+    padding: 0;
+    margin: 0;
+    background-color: darkslateblue;
+}
+
+a {
+    color: #333;
+}
+
+a:hover {
+    color: #F39800;
+}
+
+.header {
+    width: 100%;
+    margin: 0px auto;
+    position: relative;
+}
+
+.header .head {
+    width: 1170px;
+    height: 90px;
+    margin: 0px auto;
+    text-align: left;
+    position: relative;
+}
+
+.header .head .head_r {
+    width: 1170px;
+    float: left;
+    position: relative;
+}
+
+.head .nav_m {
+    width: 735px;
+    float: left;
+    position: relative;
+}
+
+.head .nav {
+    width: 100%;
+    float: left;
+    text-align: left;
+}
+
+.head .nav li {
+    display: inline-block;
+    zoom: 1;
+    height: 92px;
+    vertical-align: top;
+}
+
