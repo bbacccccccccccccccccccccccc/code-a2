@@ -54,3 +54,111 @@ a:hover {
     vertical-align: top;
 }
 
+.head .nav li a {
+    font-size: 12px;
+    color: #000;
+    display: inline-block;
+    zoom: 1;
+    height: 17px;
+    line-height: 17px;
+    padding: 0px 15px;
+    border-right: 1px solid #444;
+    vertical-align: top;
+    margin-top: 37px;
+}
+
+.head .nav li.now a,
+.head .nav li a:hover {
+    color: #F9A519;
+}
+
+.top-content {
+    width: 100%;
+}
+
+.box {
+    width: 1200px;
+    padding: 0px;
+    height: 460px;
+    overflow: hidden;
+    margin: 50px auto 0;
+    background-color: darkslateblue;
+}
+
+.item-content {
+    width: 1200px;
+    position: relative;
+    left: 50%;
+    margin-left: -597px;
+}
+
+.item-content ul li {
+    float: left;
+    display: inline;
+    height: 445px;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    transition: width 0.2s ease;
+}
+
+.item-content ul li.li1 {
+    background: #4a9ebd url(../images/jz01.png) no-repeat center
+}
+
+.item-content ul li.li2 {
+    background: #4abdb9 url(../images/jz02.png) no-repeat center
+}
+
+.item-content ul li.li3 {
+    background: #90d73d url(../images/jz03.png) no-repeat center
+}
+
+.item-content ul li.li4 {
+    background: #e3d02c url(../images/jz04.png) no-repeat center
+}
+
+.item-content ul li.li5 {
+    background: #e37e2c url(../images/jz05.png) no-repeat center
+}
+
+.item-content .fold .txt {
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    font-weight: normal;
+    line-height: 25px;
+    height: 445px;
+    background: #000;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.item-content .fold .txt a {
+    color: #fff;
+    position: absolute;
+    top: 415px;
+    padding-left: 5px;
+}
+
+.item-content .unfold {
+    width: 630px;
+    height: 445px;
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.item-content .unfold dt img {
+    width: 630px;
+    height: 445px;
+}
+
+.item-content .unfold dd {
+    line-height: 35px;
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 630px;
+}
+
