@@ -1,11 +1,4 @@
-﻿/****************************************************************
- *																*		
- * 						      代码库							*
- *                        www.dmaku.com							*
- *       		  努力创建完善、持续更新插件以及模板			*
- * 																*
-****************************************************************/
-body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+﻿body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
 	margin: 0;
 	padding: 0;
 }
@@ -31,7 +24,6 @@ q:before, q:after {
 abbr, acronym {
 	border: 0;
 }
-/* Universal father-son box nested float problem solved, start */
 .clear {
 	margin: 0px auto;
 	width: 100%;
@@ -57,19 +49,18 @@ abbr, acronym {
 .clearfix {
 	display: block;
 }
-/* Universal father-son box nested float problem solved, end */
-/* Gap layer begins */
-.space_hx { /* Lateral clearance */
+
+.space_hx {
 	clear: both;
 	width: 100%;
 	height: 20px;
 	font-size: 1px;
 	overflow: hidden;
 }
-.space_zx { /* Longitudinal clearance */
+.space_zx {
 	float: left;
 	width: 10px;
 	font-size: 1px;
 	overflow: hidden;
 }
-/* End of gap layer */
+
